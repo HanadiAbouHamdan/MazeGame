@@ -18,7 +18,7 @@ begin.addEventListener('click', function() {
     }
     score=0;
     count=0;
-    msg.textContent = 'Your score is' +score;
+    msg.textContent = 'Your score is'  +score;
     
 });
 
@@ -45,7 +45,7 @@ for (var i = 0; i < boundaries.length; i++) {
     });
     }
 
-final.addEventListener('mouseover',function(b){
+final.addEventListener('mouseover',function(){
 if (count==0){
     score+=5;
     msg.textContent='You win!Your score is'+score;
